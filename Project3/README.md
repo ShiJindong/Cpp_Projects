@@ -13,11 +13,11 @@ pic:     程序运行结果展示，包含四个图片, 分别是basic1.png, ext
 
 - basic1:
 	执行命令:
+	
 		cd   basic1
 		app/encrypt_basic1   codebook.txt   original_file.txt    encrypted_file.txt
 		(程序会提示是否重新生成一个含有字母a~z打乱顺序的码本文件，可输入yes/no进行选择。如果yes，则重新生成一个码本文件，否则使用现存文件夹内的码本文件)
 		(程序结束后会提示文件加密成功，在basic1文件夹目录下会生成加密文件 encrypted_file.txt)
-
 		app/decrypt_basic1   codebook.txt   encrypted_file.txt   decrypted_file.txt
 		(程序结束后会提示文件解密成功，在basic文件夹目录下会生成解密文件 decrypted_file.txt)
 
