@@ -1,11 +1,11 @@
 # Project 2
 ---
-源文件: Project2_Jindong_Shi/main.cpp
-可执行文件: Project2_Jindong_Shi/app/project2
-记录两个长整数的文件: Project2_Jindong_Shi/data.txt
+源文件: Project2/main.cpp
+可执行文件: Project2/app/project2
+记录两个长整数的文件: Project2/data.txt
 
 执行命令:
-cd Project2_Jindong_Shi
+cd Project2
 app/project2  data.txt  10 8
 
 测试案例展示: 
