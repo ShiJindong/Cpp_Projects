@@ -50,8 +50,7 @@ pic:     程序运行结果展示，包含四个图片, 分别是basic1.png, ext
 
 
 - extend2:
-	先将 basic1/app 内的两个可执行文件 encrypt_basic1 和 decrypt_basic1 放入文件夹 extend2/app_file_from_basic1/ 内:
-	执行命令:
+	先将 basic1/app 内的两个可执行文件 encrypt_basic1 和 decrypt_basic1 放入文件夹 extend2/app_file_from_basic1/ 内，然后执行命令:
 	
 		cd   extend2
 	   加密解密可执行文件 encrypt_basic1:
