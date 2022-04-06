@@ -11,7 +11,7 @@ pic:     程序运行结果展示，包含四个图片, 分别是basic1.png, ext
 
 对各个任务的说明:
 
-basic1:
+- basic1:
 	执行命令:
 		cd   basic1
 		app/encrypt_basic1   codebook.txt   original_file.txt    encrypted_file.txt
@@ -30,7 +30,7 @@ basic1:
 	---> 程序运行结果见 pic/basic1.png，我们看到 original_file.txt 与 decrypted_file.txt 内的数据一致，证明加密解密成功
 	
 
-extend1:
+- extend1:
 	执行命令:
 		cd   extend1
 		app/encrypt_extend1   codebook.txt   original_file.txt    encrypted_file.txt
@@ -48,7 +48,7 @@ extend1:
 	---> 程序运行结果见 pic/extend1.png，我们看到 original_file.txt 与 decrypted_file.txt 内的数据一致，证明加密解密成功
 
 
-extend2:
+- extend2:
 	先将 basic1/app 内的两个可执行文件 encrypt_basic1 和 decrypt_basic1 放入文件夹 extend2/app_file_from_basic1/ 内
 	然后执行命令:
 		cd   extend2
